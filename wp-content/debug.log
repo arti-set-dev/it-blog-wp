@@ -1,0 +1,24 @@
+[10-Oct-2023 13:48:16 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in W:\domains\itblog\wp-content\themes\itblogwp\header.php on line 53
+[10-Oct-2023 13:48:16 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in W:\domains\itblog\wp-content\themes\itblogwp\header.php on line 53
+[10-Oct-2023 13:48:17 UTC] PHP Fatal error:  Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in W:\domains\itblog\wp-content\themes\itblogwp\functions.php:41
+Stack trace:
+#0 W:\domains\itblog\wp-content\themes\itblogwp\functions.php(41): stripslashes()
+#1 W:\domains\itblog\wp-includes\class-wp-hook.php(310): load_more()
+#2 W:\domains\itblog\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 W:\domains\itblog\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 W:\domains\itblog\wp-admin\admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in W:\domains\itblog\wp-content\themes\itblogwp\functions.php on line 41
+[10-Oct-2023 13:59:10 UTC] PHP Fatal error:  Uncaught TypeError: stripslashes(): Argument #1 ($string) must be of type string, array given in W:\domains\itblog\wp-content\themes\itblogwp\functions.php:41
+Stack trace:
+#0 W:\domains\itblog\wp-content\themes\itblogwp\functions.php(41): stripslashes()
+#1 W:\domains\itblog\wp-includes\class-wp-hook.php(310): load_more()
+#2 W:\domains\itblog\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 W:\domains\itblog\wp-includes\plugin.php(517): WP_Hook->do_action()
+#4 W:\domains\itblog\wp-admin\admin-ajax.php(188): do_action()
+#5 {main}
+  thrown in W:\domains\itblog\wp-content\themes\itblogwp\functions.php on line 41
+[10-Oct-2023 14:01:09 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in W:\domains\itblog\wp-content\themes\itblogwp\functions.php on line 41
+[10-Oct-2023 14:07:57 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in W:\domains\itblog\wp-content\themes\itblogwp\functions.php on line 41
+[10-Oct-2023 14:16:07 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in W:\domains\itblog\wp-content\themes\itblogwp\header.php on line 53
+[10-Oct-2023 14:16:07 UTC] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in W:\domains\itblog\wp-content\themes\itblogwp\header.php on line 53

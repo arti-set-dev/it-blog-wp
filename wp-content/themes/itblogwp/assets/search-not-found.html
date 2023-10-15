@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>It blog</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="it blog">
+  <meta name="keywords" content="it blog, it, blog">
+  <meta name="Author" content="">
+  <meta name="Copyright" content="">
+  <meta name="Address" content="">
+  <meta property="og:locale" content="">
+  <meta property="og:type" content="">
+  <meta property="og:title" content="it blog">
+  <meta property="og:description" content="блок по it тематике">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="it blog">
+  <meta name="twitter:card" content="">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="it blog">
+  <meta name="twitter:description" content="блок по it тематике">
+  <meta name="twitter:image" content="">
+  <link rel="preload" href="fonts/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/FuturaPT-Heavy.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/FuturaPT-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a class="logo" aria-label="логотип" style="background-image: url(img/svg/logo.svg);"></a>
+    <nav class="nav header__nav" title="Меню блога" data-menu>
+      <ul class="list-reset nav__list header__list">
+        <li class="nav__item"><a href="#" class="nav__link nav__link--current" aria-current="page">Главная</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="btn-reset nav__link header__search" data-modal="search-panel">
+      <svg class="header__search-icon">
+        <use xlink:href="img/sprite.svg#search"></use>
+      </svg>
+      Поиск
+    </button>
+    <div class="overlay" data-menu-overlay></div>
+    <a href="tel:+798788787" class="text-second phone header__phone" aria-label="Позвонить">
+      <svg class="text-second__icon text-second__icon--phone">
+        <use xlink:href="img/sprite.svg#phone-call"></use>
+      </svg>
+      +7 (987) 887-87
+    </a>
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="search">
+  <div class="container search__container" tabindex="0">
+    <h1 class="title search__title search__title--m">Результаты поиска</h1>
+    <span class="search__desc">Ничего не найдено</span>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <a class="logo footer__logo" style="background-image: url(img/svg/logo.svg);" aria-label="логотип"></a>
+    <nav class="nav footer__nav" title="Разделы сайта">
+      <ul class="list-reset nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Галерея</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <small class="footer__copy">ООО «Организация» 2020. Все права защищены</small>
+  </div>
+</footer>
+
+    <div class="modal" data-modal-overlay>
+  <div class="modal-window" data-modal-target="search-panel">
+    <button type="button" class="btn visually-hidden" data-modal-close></button>
+    <form action="#" method="get" class="form search-panel">
+      <input type="search" name="search" class="input-reset input search-panel__input" id="search" data-items="first"
+        placeholder="Введите что-нибудь..." aria-label="Поле для поиска">
+      <button class="btn-reset btn-accent search-panel__btn" aria-label="Найти">
+        Найти
+        <svg class="btn-accent__icon">
+          <use xlink:href="img/sprite.svg#search"></use>
+        </svg>
+      </button>
+      <ul class="list-reset search-panel__list" data-items-target="first" aria-label="Подходящие посты">
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управление ИТ-активами — скучная рутина или
+                творческая задача?</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управление или движение</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+        <li class="search-panel__item">
+          <article class="article search-panel__post">
+            <a href="#" class="search-panel__link">
+              <h3 class="title filter-element search-panel__post-title">Управленческие навыки</h3>
+              <time datetime="2020-12-13" class="data-time search-panel__post-date">13 дек 2020</time>
+            </a>
+          </article>
+        </li>
+      </ul>
+    </form>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
